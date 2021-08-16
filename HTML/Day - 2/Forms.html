@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms In HTML</title>
+</head>
+<body>
+ <h1>
+     HTML Forms
+ </h1>   
+ <form action = "backend.php">
+     <div>
+     <label for = "myName" >
+         Name:
+        </label>
+        <input type = "text", name="myName", id = "myName">
+    </div>
+    <br>
+    <div>
+        <label for = "myRoll" >
+            Roll No.:
+           </label>
+           <input type = "number",name="myRNO" , id = "myRoll">
+       </div>
+       <br>
+       <div>
+        <label for = "myDOB" >
+            Date of Birth:
+           </label>
+           <input type = "date",name="myDateOB", id = "myDOB">
+       </div>
+       <br>
+       <div>
+           Gener : Male <input type = "radio", name="myGen">
+           Female <input type = "radio", name="myGen">
+           Other <input type = "radio", name="myGen">
+       </div>
+       
+       <br>
+       <div>
+        <label for = "myIntro" >
+            Write about yourelf:
+           </label>
+             <br><textarea class="form-control" name="myIntroduction" id="myIntro" rows="15" cols="80"></textarea>
+       </div>
+ </form>
+</body>
+</html>
