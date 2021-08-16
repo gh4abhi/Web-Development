@@ -15,35 +15,58 @@
      <label for = "myName" >
          Name:
         </label>
-        <input type = "text", name="myName", id = "myName">
+        <input type = "text" name="myName" id = "myName">
     </div>
     <br>
     <div>
         <label for = "myRoll" >
             Roll No.:
            </label>
-           <input type = "number",name="myRNO" , id = "myRoll">
+           <input type = "number" name="myRNO" id = "myRoll">
        </div>
        <br>
        <div>
         <label for = "myDOB" >
             Date of Birth:
            </label>
-           <input type = "date",name="myDateOB", id = "myDOB">
+           <input type = "date" name="myDateOB" id = "myDOB">
        </div>
        <br>
        <div>
-           Gener : Male <input type = "radio", name="myGen">
-           Female <input type = "radio", name="myGen">
-           Other <input type = "radio", name="myGen">
+        <label for = "myEl" >
+            Are You Eligible?
+           </label>
+           <input type = "checkbox" name="myElegibility" id = "myEl" checked>
        </div>
-       
+       <br>
+       <div>
+           Gender : Male <input type = "radio"name="myGender">
+           Female <input type = "radio" name="myGender">
+           Other <input type = "radio" name="myGender">
+       </div>
+       <br>
+       <div>
+        <label for="myYear">
+            Year : 
+        </label>
+        <select name="myCurYear" id="myYear">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+        </select>  
+       </div>
        <br>
        <div>
         <label for = "myIntro" >
             Write about yourelf:
            </label>
              <br><textarea class="form-control" name="myIntroduction" id="myIntro" rows="15" cols="80"></textarea>
+       </div>
+       <br>
+       <div>
+           <input type = "submit" name="mySubmit" id = "mySub" value="Submit">
+           <input type = "reset" name="myReset" id = "myRes" value="Reset">
        </div>
  </form>
 </body>
