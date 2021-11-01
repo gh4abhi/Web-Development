@@ -1,2 +1,2 @@
 # Web-Development
-Contains all Web Development Projcts.
+This repository contains all Web Development Projcts.
